@@ -1,4 +1,27 @@
-p {
-    color: red;
-    background: #000;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: crimson;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: blueviolet;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.box>button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
 }
